@@ -1,0 +1,113 @@
+html {
+  scroll-behavior: smooth;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(148, 86, 9);
+    font-weight: bold;
+    padding: 10px;
+    font-size: 2rem;
+
+}
+
+a{
+text-decoration: none;
+    color: rgb(148, 86, 9);
+}
+
+
+ nav a:hover, a:hover {
+      color: #126d49; /* Color on hover */
+    }
+
+body{
+    background-color: rgb(138, 198, 207);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: normal; 
+    margin: 50px;
+    margin-top: 70px;
+    font-size: 1.3rem;
+}
+
+ #roles{
+    text-align: center;
+    color: rgb(99, 30, 4);
+       } 
+
+.nav, .bio {
+   display: flex;
+  flex-wrap: wrap;
+}
+
+#header, #tagLine{
+    text-align: center;
+    color: rgb(99, 30, 4);
+}
+
+#bio {
+  float: right ;
+  display: flex;
+  flex-wrap: wrap;
+  color: #063b26;
+  font-weight: bold;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0.5rem;
+}
+
+.column {
+  flex: 1;
+  min-width: 250px;
+  padding: 1rem;
+  border-radius: 8px;
+  
+}
+
+/* Optional: adjust for small screens */
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+}
+ 
+p{
+    font-size: larger; 
+    font-weight: bolder;
+ }
+
+ #mgt, #creditTech, #finAnalyst, #coder{
+    float: right;
+    width: 50%;
+    padding-bottom: 10px;
+ }
+
+#finTech, #analysis, #automation, #dev{
+    float: right;
+    width: 50%;
+    padding-bottom: 1rem;
+     }
+
+#services{
+    text-align: center;
+    color: rgb(99, 30, 4);
+     }
+
+     #growWithMe{
+    text-align: center;
+    color: rgb(99, 30, 4);
+     }
+
+
+     /* Mobile styles */
+@media only screen and (max-width: 620px) {
+  /* For mobile phones: */
+  .nav, .bio, .roles, .services, .growWithMe {
+    width: 100%;
+  }
+}
+
